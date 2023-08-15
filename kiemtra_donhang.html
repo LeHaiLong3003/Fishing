@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vu mon Fishing</title>
+    <link rel="stylesheet" type="text/css" href="bw_css/bw_blackwind.css" />
+    <link rel="stylesheet" type="text/css" href="bw_css/swiper-bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="bw_css/bw_main.css" />
+    <link rel="stylesheet" type="text/css" href="bw_css/bw_select.min.css">
+</head>
+<body>
+    <header>
+        <div class="bw_container_fluid bw_m_none">
+            <div class="bw_warpheader">
+              <div class="bw_logohead">
+                <a href="index.html"><img src="bw_image/logo.svg"></a>
+              </div>
+              <div class="bw_head_right">
+                <div class="bw_rowtop_head">
+                  <div class="bw_c30" ><marquee>Đồng hành cùng đam mê </marquee> </div>
+                  <ul class="bw_navright_head bw_c70 ">
+                    <li><a href="gioi_thieu.html" class="">Giới thiệu</a></li>
+                    <li><a href="sukien.html" class="">Sự kiện</a></li>
+                    <li><a href="chiase_kinhnghiem.html" class="">Chia sẻ kinh nghiệm</a></li>
+                    <li><a href="kysu_sanhang.html" class="">Ký sự săn hàng</a></li>
+                    <li><a href="hocau_dichvu.html" class="">Hồ câu dịch vụ</a></li>
+                    <li><a data-href="#bw_search_oder" class="bw_open_modal"><span>Tra cứu đơn hàng</span></a></li>
+                  </ul>
+                </div>
+                <div class="bw_rowbottom_head">
+                  <div class="bw_box_search ">
+                      <input type="text" placeholder="Tìm kiếm...">
+                      <button type="submit"></button>
+                  </div>
+                  <div class="bw_boxlogin">
+                    <div>
+                      <img src="bw_image/ic_login.svg">
+                    </div>
+                    <div class="bw_login_text">
+                      <div>
+                        <a  data-href="#bw_login" class="bw_open_modal">Đăng nhập</a><span>/</span><a data-href="#bw_signin" class="bw_open_modal">Đăng ký</a>
+                      </div>
+                      <div>Thành viên</div>
+                    </div>
+                  </div>
+                  <div class="bw_boxcart">
+                    
+                      <a href="giohang.html" class="bw_apos" >
+                        <img src="bw_image/ic_cart_ds.svg">
+                        <span class="bw_numoder">2</span>
+                      </a>
+                      <a href="giohang.html">Giỏ hàng</a>
+                  </div>
+                  <div class="bw_boxselect_lag">
+                      <select id="select_lag" class="select_lag_des"  >
+                          <option value="1">Tiếng Việt</option>
+                          <option>Tiếng Anh</option>
+                          <option>Tiếng Trung</option>  
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="bw_container_fluid bw_relative bw_d_none " >
+          <ul class="bw_menu_mo">
+              
+              <li id="bw_menu">
+                  <span></span><span></span><span></span>
+              </li>
+              <li>
+                  <a class="bw_hea_logo" href="index.html"><img src="bw_image/logo.svg"></a>
+              </li>
+              <li >
+                 
+                   <a href="giohang.html" class=" bw_apos"><img src="bw_image/ic_cart_mo.svg">
+                    <span class="bw_numoder">2</span>
+                  </a>
+                  
+              </li>
+          </ul>
+        </div>
+        
+    </header>
+    <div id="nav_all" class="bw_nav_all bw_m_none">
+      <ul class="bw_boxnav">
+        <li><a href="sanpham.html" class="">Cần câu</a></li>
+        <li><a href="sanpham.html">Phụ kiện</a></li>
+        <li><a href="sanpham.html">Phao câu</a></li>
+        <li><a href="sanpham.html">Thời trang</a></li>
+        <li><a href="sanpham.html">Mồi câu</a></li>
+        <li><a href="sanpham.html">Trục thẻo</a></li>
+        <li><a href="sanpham.html">thùng câu</a></li>
+        <li><a href="sanpham.html">Combo sp</a></li>
+        <li><a href="sanpham.html" class="bw_color_yel">Rọng cá - Vợt</a></li>
+        <li><a href="sanpham.html">Ghế câu</a></li>
+
+      </ul>
+    </div>
+    
+    <div id="bw_warprow_body" >
+        <!--conten-->
+        <div class="  bw_pd_t_20 bw_pd_b_30">
+            <div class="bw_container_fluid   ">
+                <h1 class="bw_h1text bw_mt_30">Kiểm tra đơn hàng </h1>
+                <ul class="bw_navsmall bw_pd_t_none bw_bor_bt" >
+                  <li><a href="index.html">Trang chủ</a></li>
+                  <li><span>/</span><label>Kiểm tra đơn hàng </label></li>
+                </ul>
+
+                <div class="bw_warprow bw_mt_20">
+                    <div class="bw_tile_oder_detail">
+                      <div>
+                        <span>Mã đơn hàng: <label>#543683694</label></span>
+                      </div>
+                      <div>
+                        <span class="bw_spantexxt_order" > <span>Đang xử lý</span></span>
+                      </div>
+                    </div>
+
+                    <div class="bw_step_order text-center bw_m_none">
+                      <ul>
+                        <li>
+                            <div>
+                                <div class="active"><img src="bw_image/Step1.svg" alt=1></div>
+                              <label>Đơn đặt hàng</label>
+                              <span>10:00 - 12/03/2021</span>
+                            </div>
+                            
+                         
+                        </li>
+                        
+                        <li>
+                            <div>
+                                <div class="active"><img src="bw_image/Step2.svg" alt=2></div>
+                              
+                              <label>Xác nhận đơn và đóng gói</label> 
+                              <span>14:00 - 12/03/2021</span>
+                            </div>
+                         
+                        </li>
+                        <li>
+                            <div>
+                              <div  ><img src="bw_image/Step3.svg" alt=3></div>
+                              <label>Chuyển hàng cho Shipper</label>
+                                  <span>10:00 - 12/03/2021</span>
+                            </div>
+                          
+                        </li>
+                        <li>
+                            <div >
+                                  <div ><img src="bw_image/Step4.svg" alt=4></div>
+                                  <label>Đã giao hàng</label>
+                                  <span>10:00 - 12/03/2021</span>
+                            </div>
+                         
+                        </li>
+                        <li>
+                          <div >
+                                <div ><img src="bw_image/step5.svg" alt=5></div>
+                                <label>Đánh giá</label>
+                                <span></span>
+                          </div>
+                       
+                      </li>
+                       
+                      </ul>
+                      <hr class="hr2 hrwidth_30">
+                    </div>
+                    <div class="bw_warprow bw_bor_bt ">
+                      <ul class="bw_box_shiping">
+                          <li>
+                              <h5>Địa chỉ nhận hàng</h5>
+                              <label>Nguyễn, Phương Thảo</label>
+                              <span>(+84) 0748284929</span>
+                              <p>123 Trần Diệu, Phường 12, Quận Phú Nhuận, TP. Hồ Chí Minh</p>
+                          </li>
+                          <li>
+                              <h5>Phương thức thanh toán</h5>
+                              <p>Thanh toán tiền khi nhận hàng (COD)</p>
+                          </li>
+                          <li>
+                              <h5>Phương thức vận chuyển</h5>
+                              <p>Giao hàng nhanh 48 giờ</p>
+                              <strong>Freeship</strong>
+                          </li>
+                      </ul>
+
+                  </div>
+                  <div class="bw_warprow bw_bor_bt ">
+                    <h4 class="bw_h4_textacc bw_pd_t_20 bw_pd_b_20">thông tin sản phẩm</h4>        
+                    <!--item 1-->
+                    <div class="bw_boxitem_cart bw_width ">
+                       <div class="bw_row bw_pd_15 bw_flex  ">
+                           <div class="bw_c10">
+                               <div class="bw_item_cart">
+                                   <a href="chitiet_sp.html">
+                                       <img src="bw_image/sp_1.jpg">
+                                   </a>
+                               </div>
+                           </div>
+                           <div class="bw_c90">
+                               <div class="bw_item_cart bw_item_detal_oder">
+                                  <a href="chitiet_sp.html"> Giỏ đựng cá cao cấp nhiều vành inox Rọng cá nhiều màu, kích cỡ - Vũ môn fishing</a>
+                                   <ul >
+                                       <li>
+                                          <span>Loại: 1.5m</span><span>,</span><span>SL: 2</span>
+                                       </li>
+                                       <li>
+                                        <span class="bw_oder_price">600,000đ</span><span class="bw_oder_price_nosale">1,200,000₫</span>
+                                       </li>
+                                   </ul>
+                                  
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                      <!--item 2-->
+                      <div class="bw_boxitem_cart bw_width ">
+                        <div class="bw_row bw_pd_15 bw_flex  ">
+                            <div class="bw_c10">
+                                <div class="bw_item_cart">
+                                    <a href="chitiet_sp.html">
+                                        <img src="bw_image/sp_2.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="bw_c90">
+                                <div class="bw_item_cart bw_item_detal_oder">
+                                  <a href="chitiet_sp.html"> Mồi trắm đen vị tanh</a>
+                                    <ul >
+                                        <li>
+                                          <span>Loại: 1.5m</span><span>,</span><span>SL: 2</span>
+                                        </li>
+                                        <li>
+                                        <span class="bw_oder_price">600,000đ</span><span class="bw_oder_price_nosale">1,200,000₫</span>
+                                        </li>
+                                    </ul>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                      
+                  </div>
+                  <div class="bw_warper_pricr">
+                    <div class="bw_boxitem_pricr ">
+                        <ul class="bw_ul_price_shipping ">
+                            <li>
+                                <span>Tổng tiền hàng</span>
+                            </li>
+                            <li>
+                                <span>2.000.000đ</span>
+                            </li>
+                        </ul>
+                        <ul class="bw_ul_price_shipping ">
+                            <li>
+                                <span>Giảm giá</span>
+                            </li>
+                            <li>
+                                <span>0đ</span>
+                            </li>
+                        </ul>
+                        <ul class="bw_ul_price_shipping ">
+                            <li>
+                                <span>Phí vận chuyển</span>
+                            </li>
+                            <li>
+                                <span>0đ</span>
+                            </li>
+                        </ul>
+
+                    </div>
+                    
+                        <ul class="bw_ul_price_shipping">
+                            <li>
+                                <h5>Tổng thanh toán <span>( đã bao gồm VAT )</span></h5>
+                            </li>
+                            <li>
+                                <h5>2.000,000₫</h5>
+                            </li>
+                        </ul>
+                    
+                </div>
+                </div>
+
+            </div>
+        </div>
+        
+    </div>
+    <footer>
+        <div class="bw_container">
+          <div class="bw_row bw_pd_15 bw_justify_content_between">
+            <div class="bw_col_3">
+              <div class="bw_boxcol_footer">
+                  <ul class="item_ul">
+                    <li>Hỗ trợ khách hàng</li>
+                    <li><a href="dieukhoan_sudung.html">Điều khoản sử dụng</a></li>
+                    <li><a href="chinhsach_thanhtoan.html">Chính sách thanh toán</a></li>
+                    <li><a href="chinhsach_baomat.html">Chính sách bảo mật</a></li>
+                    <li><a href="baohanh.html">Chính sách bảo hành</a></li>
+                  </ul>
+              </div>
+            </div>
+            <div class="bw_col_3">
+              <div class="bw_boxcol_footer">
+                  <ul class="item_ul">
+                    <li>Về Vũ Môn Fishing</li>
+                    <li><a href="gioi_thieu.html">Giới thiệu</a></li>
+                    <li><a href="sukien.html">Tin tức - Sự kiện</a></li>
+                    <li><a href="khuyen_mai.html">Khuyến mãi</a></li>
+                    <li><a href="lienhe.html">Liên hệ</a></li>
+                  </ul>
+              </div>
+            </div>
+            <div class="bw_col_3">
+              <div class="bw_boxcol_footer">
+                  <ul class="item_ul">
+                    <li>Về Vũ Môn Fishing</li>
+                    <li class="bw_lisocal">
+                      <a href="#!"><img src="bw_image/ic_fb.svg"></a>
+                      <a href="#!"><img src="bw_image/ic_youtube.svg"></a>
+                      <a href="#!"><img src="bw_image/ic_instagam.svg"></a>
+                    </li>
+                    <li class="bw_litital">Thanh toán</li>
+                    <li class="bw_lisocal">
+                      <span><img src="bw_image/pay_visa.svg"></span>
+                      <span><img src="bw_image/pay_jcb.svg"></span>
+                      <span><img src="bw_image/pay_master.svg"></span>
+                      <span><img src="bw_image/pay_paypal.svg"></span>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+            <div class="bw_col_3">
+              <div class="bw_boxcol_footer">
+                  <ul class="item_ul">
+                    <li>Đăng ký nhận tin</li>
+                    <li >
+                      <div class="bw_boxemail">
+                        <input type="text" placeholder="Nhập email" class="bw_inpu">
+                        <button type="submit" class="bw_btn"></button>
+                      </div>
+                    </li>
+                    
+                  </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bw_box_footer_bottom">
+          <div>© 2021 VumonFishing . Design by Blackwind Software</div>
+        </div>
+    </footer>
+    <!-- Top-->
+    <div class="scroll-to-top scroll-to-target" style="display: block;">
+        <span><img src="bw_image/ic_top.svg"></span>
+    </div>
+    
+</body>
+
+<!--hỗ trợ-->
+<div class="bw_open_review">
+  <a id="bw_help_review" class="bw_item_help" >
+    <img src="bw_image/help_danhgia.svg">
+    <p class="bw_text_hover">Phản hồi chất lượng dịch vụ</p>
+  </a>
+</div>
+<div class="bw_open_helpcenter" >
+  <img src="bw_image/ic_help_cus.svg">
+</div>
+<div class="bw_helpcenter">
+  <a id="bw_help_chat" class="bw_item_help" >
+    <img src="bw_image/help_chat.svg">
+    <p class="bw_text_hover">Chat với chúng tôi</p>
+  </a>
+  <a href="#" id="bw_help_hotline" class="bw_item_help" >
+    <img src="bw_image/help_call.svg">
+    <p class="bw_text_hover bw_text_hover-position">Hotline: 0368361998</p>
+  </a>
+  <a id="bw_close_fi" class="item_close">
+    <img src="bw_image/ic_close.svg">
+  </a>
+</div>
+ <!--poup đánh giá-->   
+ <div id="bw_box_review_feixd" class="bw_box_chat" >
+  <div class="bw_boxchat_container bw_relative">
+    <div class="bw_boxchat_header bw_bg_gree">
+      <a class="bw_close_modal bw_close_white "><img src="bw_image/ic_close.svg" alt="Close"></a>
+      <div class="bw_text_review_fid">
+        <p>Chào bạn!</p>
+        <p>Bạn có hài lòng về Vũ Môn Fishing?</p>
+      </div>
+      <div class="bw_chat_tile bw_text_center" >Hãy để lại đánh giá và ý kiến đóng góp của bạn dành cho Vũ Môn nhé!</div>
+    </div>
+    <div class="bw_boxchat_conten" >
+      <div class="bw_form_login" id="boxform_rive" >
+        <div class="bw_row_from bw_flex ">
+           <div class="bw_radio_box">
+             <input type="radio"  name="fav_language" value="" id="4" >
+             <span class="checkmark"></span>
+                   <label for="4" class="bw_lable_radio">Anh</label>
+           
+           </div>
+           <div class="bw_radio_box">
+             <input type="radio"  name="fav_language" value=""   id="5" >
+             <span class="checkmark"></span>
+                   <label for="5" class="bw_lable_radio">Chị</label>
+           
+           </div>
+        </div>
+        <div class="bw_row_from ">
+            <input type="text" name="" class="bw_input " placeholder="Họ tên">
+        </div>
+        <div class="bw_row_from ">
+         <input type="text" name="" class="bw_input " placeholder="Số điện thoại">
+       </div>
+       <div class="bw_row_from ">
+        <div class="bw_selectcity">
+          <select id="bw_select_review" placeholder="Chủ đề đánh giá" >
+            
+            <option value="">Chủ đề đánh giá</option>
+            <option>Dịch vụ 1</option>
+            <option>Dịch vụ 2</option>
+            <option>Dịch vụ 3</option>
+            <option>Dịch vụ 4</option>
+            
+        </select>
+        </div>
+       </div>
+       <div class="bw_row_from ">
+        <textarea class="bw_textarea " placeholder="Nội dung"></textarea>
+       </div>
+       <div class="bw_row_from ">
+        <div class="bw_rating_select">
+          <input type="radio" id="s5" value="5">
+          <label for="s5"></label>
+          <input type="radio" id="s4" value="4">
+          <label for="s4"></label>
+          <input type="radio" id="s3" value="3">
+          <label for="s3"></label>
+          <input type="radio" id="s2" value="2">
+          <label for="s2"></label>
+          <input type="radio" id="s1" value="1">
+          <label for="s1"></label>
+        </div>
+        <div class="clearfix"></div>
+       </div>
+        <div class="bw_row_from  ">
+            <a href="#" id="btn_rive" class="bw_buton_limk bw_mt_10">Gửi đánh giá</a>
+        </div>
+       
+      </div>
+      <div class="bw_form_finsish_ask bw_text_center" id="bw_note_review_fininsh">
+           
+          <p>Bạn đã gửi yêu cầu thành công. <br> Cảm ơn bạn!</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!--poup chat-->
+<div id="bw_box_chat" class="bw_box_chat" >
+    <div class="bw_boxchat_container bw_relative">
+      <div class="bw_boxchat_header">
+        <a class="bw_close_modal bw_close_white "><img src="bw_image/ic_close.svg" alt="Close"></a>
+        <div class="bw_chat_detail">
+            <img src="bw_image/logo.svg" alt="Logo">
+            <div>
+                <span>Vũ Môn Fishing</span>
+                <p>Chúng tôi có thể hỗ trợ gì cho bạn?.</p>
+            </div>
+
+        </div>
+        <div class="bw_chat_tile" ><b>Chào bạn!</b>Bạn hãy để lại thông tin, Vũ môn sẽ liên hệ sớm nhất tư vấn cho bạn </div>
+      </div>
+      <div class="bw_boxchat_conten">
+        <div class="bw_form_login" id="boxform_aks">
+          <div class="bw_row_from bw_flex ">
+             <div class="bw_radio_box">
+               <input type="radio"  name="fav_language" value="" id="4" >
+               <span class="checkmark"></span>
+                   <label for="4" class="bw_lable_radio">Anh</label>
+             
+             </div>
+             <div class="bw_radio_box">
+               <input type="radio"  name="fav_language" value=""   id="5" >
+               <span class="checkmark"></span>
+                   <label for="5" class="bw_lable_radio">Chị</label>
+             
+             </div>
+          </div>
+          <div class="bw_row_from ">
+              <input type="text" name="" class="bw_input " placeholder="Họ tên">
+          </div>
+          <div class="bw_row_from ">
+           <input type="text" name="" class="bw_input " placeholder="Số điện thoại">
+         </div>
+         <div class="bw_row_from ">
+           <input type="text" name="" class="bw_input " placeholder="Email">
+         </div>
+         <div class="bw_row_from ">
+          <textarea class="bw_textarea " placeholder="Nội dung"></textarea>
+         </div>
+         
+          <div class="bw_row_from  ">
+              <a href="#" id="btclose" class="bw_buton_limk bw_mt_10">Gửi yêu cầu</a>
+          </div>
+         
+        </div>
+        <div class="bw_form_finsish_ask bw_text_center " id="bw_note_chat_fininsh">
+            <p>Bạn đã gửi yêu cầu thành công.</p>
+            <p>Bộ phận chăm sóc khách hàng sẽ liên hệ lại với bạn sớm nhất </p>
+        </div>
+      </div>
+
+    </div>
+</div>
+
+<!--poup tra cứu đơn hàng-->
+
+<div class="bw_modal" id="bw_search_oder">
+  <div class="bw_modal_container bw_w400 bw_relative">
+      <a class="bw_close_modal "><img src="bw_image/ic_close.svg" alt="Close"></a>
+      <div class="bw_detail_modal ">
+          <h4>Tra cứu đơn hàng</h4>
+      </div>
+      <div class="bw_content_modal ">
+        <div class="bw_form_login bw_mt_20">
+              <div class="bw_row_from ">
+                  <input type="text" name="" class="bw_input " placeholder="Nhập mã đơn hàng">
+              </div>
+              <div class="bw_row_from bw_rowbtn ">
+                  <a href="index.html" class="bw_buton_limk  bw_mt_10 bw_btn_gray">Hủy</a>
+                  <a href="kiemtra_donhang.html" class="bw_buton_limk  bw_mt_10">Kiểm tra</a>
+              </div>
+          
+          </div>
+      </div>
+      
+  </div>
+</div>
+
+<!--poup login-->
+<div class="bw_modal" id="bw_login">
+  <div class="bw_modal_container bw_w850 bw_relative">
+      <a class="bw_close_modal "><img src="bw_image/ic_close.svg" alt="Close"></a>
+      <div class=" bw_popboxlogin ">
+            <div class="bw_text_left">
+              <img src="bw_image/img_login.png" >
+              
+            </div>
+            <div class="bw_conten_login">
+              <h3 >Chào mừng bạn !</h3>
+              <p>Tạo một tài khoản để nhận được những ưu đãi tốt nhất từ Vũ Môn Fishing</p>
+              <div class="bw_form_login">
+               <div class="bw_row_from ">
+                   <input type="text" name="nEmail" class="bw_input " placeholder="Email hoặc Số điện thoại">
+               </div>
+               <div class="bw_row_from ">
+                   <input type="text" name="nPass" class="bw_input " placeholder="Mật khẩu">
+               </div>
+               <div class="bw_row_from bw_flex bw_justify_content_between bw_align_items_center ">
+                  <div class="bw_checkbox_prod" >
+                    <input type="checkbox"  aria-checked="true"  >
+                    <label >Ghi nhớ mật khẩu</label>
+                </div>
+                   <a data-href="#bw_QMK"class="bw_from_a bw_open_modal">Quên mật khẩu?</a>
+               </div>
+               <div class="bw_row_from  ">
+                   <a href="thongtin_taikhoan.html" class="bw_buton_limk bw_mt_10">Đăng nhập</a>
+               </div>
+               
+               <div class="bw_show_all">
+                   <label>Hoặc đăng nhập bằng</label>
+                   <span></span>
+              </div>
+              <ul class="bw_ul_socal_btn">
+                  <li>
+                      <a href="#">
+                           <img src="bw_image/ic_fb_login.svg">
+                      </a> 
+                  </li>
+                  <li>
+                      <a href="#">
+                           <img src="bw_image/ic_goo_login.svg">
+                      </a>
+                   
+                   </li>
+                   <li>
+                       <a href="#">
+                           <img src="bw_image/ic_zalo_login.svg">
+                       </a>
+                   </li>
+              </ul>
+              <div class="bw_divline_optio">Bạn chưa có tài khoản? <a data-href="#bw_signin" class="bw_open_modal">Đăng ký</a></div>
+               
+               </div>
+          </div>
+      </div>
+      
+  </div>
+</div>
+
+<!--poup sign in-->
+<div class="bw_modal" id="bw_signin">
+  <div class="bw_modal_container bw_w550 bw_relative">
+      <a class="bw_close_modal "><img src="bw_image/ic_close.svg" alt="Close"></a>
+      <div class=" bw_popboxlogin ">
+            <div class="bw_conten_login bw_width100">
+              <h3 >Tạo tài khoản !</h3>
+              <p>Tạo một tài khoản để nhận được những ưu đãi tốt nhất từ Vũ Môn Fishing</p>
+              <div class="bw_form_login">
+               <div class="bw_row_from bw_flex ">
+                  <div class="bw_radio_box">
+                    <input type="radio"  name="fav_language" value=""  id="1" >
+                    <span class="checkmark"></span>
+                     <label for="1" class="bw_lable_radio">Anh</label>
+                  
+                  </div>
+                  <div class="bw_radio_box">
+                    <input type="radio"  name="fav_language" value=""  id="2" >
+                    <span class="checkmark"></span>
+                     <label for="2" class="bw_lable_radio">Chị</label>
+                  
+                  </div>
+               </div>
+               <div class="bw_row_from ">
+                   <input type="text" name="" class="bw_input " placeholder="Họ tên">
+               </div>
+               <div class="bw_row_from ">
+                <input type="date" name="" class="bw_input ">
+                <span class="bw_text_note">* Vui lòng điền đúng ngày sinh của bạn. Bạn sẽ không được chỉnh sửa ngày sinh nhật sau khi hệ thống tạo tài khoản thành công</span>
+              </div>
+               <div class="bw_row_from bw_flex_input">
+                <input type="text" name="" class="bw_input " placeholder="Số điện thoại">
+                <input type="text" name="" class="bw_input " placeholder="Email">
+              </div>
+              <div class="bw_row_from ">
+                <input type="text" name="" class="bw_input " placeholder="Mật khẩu">
+              </div>
+              <div class="bw_row_from ">
+                <input type="text" name="" class="bw_input " placeholder="Xác nhận mật khẩu">
+              </div>
+              <div class="bw_row_from  ">
+                <div class="bw_checkbox_prod" >
+                  <input type="checkbox"  aria-checked="true" checked="checked"  >
+                  <label >Nhận thông tin khuyến mãi qua e-mail</label>
+                </div>
+                 <p>Tôi đã đọc và đồng ý thực hiện mọi giao dịch mua bán theo điều kiện sử dụng và chính sách của Vũ Môn Fishing</p>
+             </div>
+               <div class="bw_row_from  ">
+                   <a href="thongtin_taikhoan.html" class="bw_buton_limk bw_mt_10">Tạo tài khoản</a>
+               </div>
+               <div class="bw_show_all">
+                <label>Hoặc đăng nhập bằng</label>
+                <span></span>
+           </div>
+           <ul class="bw_ul_socal_btn">
+               <li>
+                   <a href="#">
+                        <img src="bw_image/ic_fb_login.svg">
+                   </a> 
+               </li>
+               <li>
+                   <a href="#">
+                        <img src="bw_image/ic_goo_login.svg">
+                   </a>
+                
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="bw_image/ic_zalo_login.svg">
+                    </a>
+                </li>
+           </ul>
+              <div class="bw_divline_optio">Bạn chưa có tài khoản? <a data-href="#bw_login" class="bw_open_modal">Đăng nhập</a></div>
+               
+               </div>
+          </div>
+      </div>
+      
+  </div>
+</div>
+<!-- poup quên mật khẩu-->
+
+<div class="bw_modal" id="bw_QMK">
+  <div class="bw_modal_container bw_w550 bw_relative">
+      <a class="bw_close_modal "><img src="bw_image/ic_close.svg" alt="Close"></a>
+      <div class=" bw_popboxlogin ">
+            <div class="bw_conten_login bw_width100">
+              <h3 >Quên mật khẩu !</h3>
+              <p>Nhập email của bạn bên dưới để nhận đường dẫn đặt lại mật khẩu.</p>
+              <div class="bw_form_login">
+              
+               <div class="bw_row_from ">
+                   <input type="text" name="" class="bw_input " placeholder="Email">
+               </div>
+               
+               <div class="bw_row_from  ">
+                   <a href="#" class="bw_buton_limk bw_mt_10">Gửi thông tin</a>
+               </div>
+               
+          
+              <div class="bw_divline_optio">Bạn chưa có tài khoản? <a data-href="#bw_login" class="bw_open_modal">Đăng nhập</a></div>
+               
+               </div>
+          </div>
+      </div>
+      
+  </div>
+</div>
+
+<!--menu mobile-->
+<div id="bw_main_menu">
+  <div class="bw_head_modal bw_flex bw_justify_content_between bw_align_items_center">
+    <div class="bw_boxlogin bw_mr_none ">
+      <div>
+        <img src="bw_image/ic_login.svg">
+      </div>
+      <div class="bw_login_text">
+        <div>
+          <a data-href="#bw_login" class="bw_open_modal">Đăng nhập</a><span>/</span><a data-href="#bw_signin" class="bw_open_modal">Đăng ký</a>
+        </div>
+        <div>Thành viên</div>
+      </div>
+    </div>
+      <a href="#!" class="bw_close_menu bw_btclose_mb">
+          <span></span>
+          <span></span>
+      </a>
+  </div>
+  <div class="bw_content_modal">
+      
+      <ul>
+          <li class="bw_active"><a href="index.html">Trang chủ</a></li>
+          <li><a href="gioi_thieu.html">Giới thiệu</a></li>
+          <li class="bw_accode_mb">
+            <div class="bw_lipro"><span>Sản phẩm</span> <img src="bw_image/ic_arrow_down.svg" > </div>
+              <div class="bw_navmobi ">
+                <ul>
+                  <li><a href="sanpham.html" class="bw_item_navpro" >Cần câu</a></li>
+                  <li> <a href="sanpham.html" class="bw_item_navpro" >Phụ kiện</a></li>
+                  <li> <a href="sanpham.html" class="bw_item_navpro" >Phao câu</a></li>
+                  <li> <a href="sanpham.html" class="bw_item_navpro" >Thời trang</a></li>
+                  <li> <a href="sanpham.html" class="bw_item_navpro" >Mồi câu</a></li>
+                  <li> <a href="sanpham.html" class="bw_item_navpro" >Trục thẻo</a></li>
+                  <li> <a href="sanpham.html" class="bw_item_navpro" >Combo SP</a></li>
+                  <li> <a href="sanpham.html" class="bw_item_navpro" >Rọng cá - Vợt</a></li>
+                  <li> <a href="sanpham.html" class="bw_item_navpro" >Ghế câu</a></li>
+                </ul>
+               
+              </div>
+          </li>
+          <li><a href="sukien.html">Sự kiện</a></li>
+          <li><a href="chiase_kinhnghiem.html" class="">Chia sẻ kinh nghiệm</a></li>
+          <li><a href="kysu_sanhang.html" class="">Ký sự săn hàng</a></li>
+          <li><a href="hocau_dichvu.html" class="">Hồ câu dịch vụ</a></li>
+          <li><a href="lienhe.html" class="">Liên hệ</a></li>
+      </ul>
+      <ul class="bw_boxuser">
+        <li><a href="thongtin_taikhoan.html"><span>Tài khoản của bạn</span></a></li>
+        <li><a href="quanly_donhang.html"><span>Quản lý đơn hàng</span></a></li>
+        <li><a href="tichdiem.html"><span>Tích điểm Vũ Môn</span></a></li>
+      </ul>
+    <div class="bw_lag_mo">
+      <div>Ngôn ngữ</div>
+      <ul>
+        <li class="active"> <a href="#!">Tiếng Việt</a></li>
+        <li > <a href="#!">Tiếng Anh</a></li>
+        <li > <a href="#!">Tiếng Trung</a></li>
+      </ul>
+    </div>
+    <div class="bw_logou">
+      <a href="#">
+        <img src="bw_image/ic_logout.svg"> <span> Đăng xuất</span>
+      </a>
+      
+    </div>
+     
+  </div>
+</div>
+  <!--Menu mobile-->
+ 
+<script src="bw_js/jquery-3.5.1.min.js"></script>
+<script src="bw_js/bw_blackwind.js"></script>
+<script src="bw_js/swiper-bundle.min.js"></script>
+<script src="bw_js/bw_select.min.js"></script>
+<script src="bw_js/bw_main.js"></script>
+
+
+<script>
+    var swiper = new Swiper(".slide_home", {
+      spaceBetween: 30,
+      autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+    var swiper = new Swiper(".bw_view_product", {
+      spaceBetween: 30,
+      navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+    });
+    var swiper = new Swiper(".bw_gally_slide", {
+                slidesPerView: 4,
+                spaceBetween: 30,
+                slidesPerGroup: 3,
+                loop: false,
+                loopFillGroupWithBlank: true,
+                navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+                },
+                breakpoints: {
+                    0:{
+                    slidesPerView: 2
+                    },
+                    640: {
+                    slidesPerView: 3
+                    },
+                    768: {
+                    slidesPerView: 3
+                    },
+                    1024: {
+                    slidesPerView: 4
+                    },
+                }
+            });
+   
+</script>
+</html>

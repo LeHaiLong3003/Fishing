@@ -1,0 +1,21 @@
+variables:
+  HTML_DIR: "/home/blackwind.vn/html"
+
+stages:
+  - build
+
+vumon_deploy_html:
+  tags:
+    - 204-runner
+  stage: build
+  only:
+      refs:
+        - master
+  script:
+    - echo "Runing build html"
+    - |
+      if [[ ! -e "$HTML_DIR/vumon" ]]; then
+        mkdir -p "$HTML_DIR/vumon"
+      fi
+    - cp -rf * "$HTML_DIR/vumon"
+    - echo "Runing build html success"
